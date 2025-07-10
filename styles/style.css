@@ -6,12 +6,14 @@
 
 /* Navbar Style */
 header{
-     background-image: url("../Assets/Hero-bg.png");
+    background-image: url("../Assets/Hero-bg.png");
+    background-size: cover;
     max-width: 1440px;
+    /* max-height: 698px; */
     background-size: cover;
     }
 .nav{
-    
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,8 +45,9 @@ header{
     text-align: center;
 }
 .banner-title{
-    
+    font-weight: bold;
+    font-size: 65px;
 }
 .banner-btn{
-
+    margin-bottom: 152px;
 }
