@@ -176,7 +176,66 @@ img{
     margin-right: 10px;    
     padding: 24px;
 }
-.review-padding{
-    padding-right: 0px;
+
+/* Feedback/ Get in Touch Style */
+
+.feedback{
+    max-width: 1140px;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    
+}
+.feedback-title{
+    font-weight: bold;
+    font-size: 97px;
+    color: #000000;
+    margin: 200px 0px 200px 150px;
+}
+.form-section{
+    display: block;
+    width: 100px;
+}
+.form-section input[type="text"], input[type="email"], textarea{
+    padding: 20px 130px 20px 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: normal;
+    color: #0000005a;
 }
 
+.form-section label [for="email"], label[for="text"]{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+}
+.form-section textarea{
+    padding: 20px 137px 85px 32px;
+}
+.feedback-button{
+    margin-top: 19px;
+    padding: 15px 180px;
+}
+
+/* Footer Section Style */
+
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+.footer-description{
+    color: #8987A1;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer-link{
+    display: flex;
+    text-decoration: none;
+    gap: 30px; 
+}
