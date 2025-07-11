@@ -15,7 +15,7 @@ body{
 
 /* Navbar Style */
 .main-header{
-    background-image: url("../Assets/Hero-bg.png");
+    background-image: url("../assets/hero-bg.png");
     background-size: cover;
     max-width: 1440px;
     background-position: center;
