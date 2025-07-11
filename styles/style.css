@@ -18,6 +18,8 @@ body{
     background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
     max-width: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
     /* max-height: 698px; */
     /* max-width: 100%;
     max-height: 100%; */
@@ -189,6 +191,34 @@ img{
     margin-right: 10px;    
     padding: 24px;
 }
+
+/* Focused Section Style */
+.focus{
+    max-width: 1140px;
+    margin: 137px 149px 0px 151px;
+    
+}
+.main-focus{
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 71px 150px 71px 150px;
+    border-radius: 14px;
+}
+.focus-title{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.focus-description{
+    font-weight: normal;
+    font-size: 16px;
+    color: #00000093;
+    margin-bottom: 20px;
+}
+.focus-button{
+    margin-bottom: 20px;
+}
+
 
 /* Feedback/ Get in Touch Style */
 
